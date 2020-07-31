@@ -1,0 +1,52 @@
+# packages in environment at C:\Users\USER\anaconda3\envs\AI_Latam:
+#
+# Name                    Version                   Build  Channel
+blas                      1.0                         mkl  
+ca-certificates           2020.6.20            hecda079_0    conda-forge
+certifi                   2020.6.20        py38h32f6830_0    conda-forge
+cycler                    0.10.0                     py_2    conda-forge
+freetype                  2.10.2               hd328e21_0    conda-forge
+icc_rt                    2019.0.0             h0cc432a_1  
+icu                       64.2                 he025d50_1    conda-forge
+imutils                   0.5.3            py38h32f6830_2    conda-forge
+intel-openmp              2020.1                      216  
+jpeg                      9d                   he774522_0    conda-forge
+kiwisolver                1.2.0            py38heaebd3c_0    conda-forge
+libblas                   3.8.0                    16_mkl    conda-forge
+libcblas                  3.8.0                    16_mkl    conda-forge
+libclang                  9.0.1           default_hf44288c_0    conda-forge
+liblapack                 3.8.0                    16_mkl    conda-forge
+liblapacke                3.8.0                    16_mkl    conda-forge
+libopencv                 4.4.0                    py38_2    conda-forge
+libpng                    1.6.37               hfe6a214_1    conda-forge
+libtiff                   4.1.0                h885aae3_6    conda-forge
+libwebp-base              1.1.0                hfa6e2cd_3    conda-forge
+lz4-c                     1.9.2                h62dcd97_1    conda-forge
+matplotlib-base           3.3.0            py38hfb9ee82_1    conda-forge
+mkl                       2020.1                      216  
+mkl-service               2.3.0            py38hb782905_0  
+numpy                     1.19.1           py38h72c728b_0    conda-forge
+olefile                   0.46                       py_0    conda-forge
+opencv                    4.4.0                    py38_2    conda-forge
+openssl                   1.1.1g               he774522_1    conda-forge
+pillow                    7.2.0            py38h7011068_1    conda-forge
+pip                       20.2                       py_0    conda-forge
+py-opencv                 4.4.0            py38h23f93f0_2    conda-forge
+pyparsing                 2.4.7              pyh9f0ad1d_0    conda-forge
+python                    3.8.5           h5fd99cc_1_cpython    conda-forge
+python-dateutil           2.8.1                      py_0    conda-forge
+python_abi                3.8                      1_cp38    conda-forge
+qt                        5.12.5               h7ef1ec2_0    conda-forge
+scipy                     1.5.0            py38h9439919_0  
+setuptools                49.2.0           py38h32f6830_0    conda-forge
+six                       1.15.0             pyh9f0ad1d_0    conda-forge
+sqlite                    3.32.3               he774522_1    conda-forge
+tk                        8.6.10               hfa6e2cd_0    conda-forge
+tornado                   6.0.4            py38hfa6e2cd_0    conda-forge
+vc                        14.1                 h869be7e_1    conda-forge
+vs2015_runtime            14.16.27012          h30e32a0_2    conda-forge
+wheel                     0.34.2                     py_1    conda-forge
+wincertstore              0.2                   py38_1003    conda-forge
+xz                        5.2.5                h62dcd97_1    conda-forge
+zlib                      1.2.11            h2fa13f4_1006    conda-forge
+zstd                      1.4.5                h1f3a1b7_2    conda-forge
