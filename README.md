@@ -1,4 +1,7 @@
 ## RECONOCER OBJETOS EN IMAGEN/VIDEO/CAMARA USANDO YOLOV3/V4 CON OPENCV
+![](detecciones/deteccion_oficina.png)
+![](gif/bloggif_5f24d1b132d54.gif)
+
 Reconocer objetos usando la librería OpenCV
 ## YOLOV3 / YOLOV4 🚀
 _Reconocer objetos en imagen/video/camara con OpenCV deep learning library, utilizando dnn, y darknet framework.
