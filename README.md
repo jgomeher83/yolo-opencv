@@ -80,3 +80,4 @@ GOOD LUCK! Creado por jgomeher83 para go_ahead
 
 ### Documentacion oficial
 * [OpenCV](https://opencv.org/) - OpenCv
+* [YOLO](https://pjreddie.com/darknet/yolo/) - Pagina oficial de yolo y darknet
