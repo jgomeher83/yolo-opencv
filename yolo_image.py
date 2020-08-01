@@ -23,7 +23,7 @@ import time
 #Leer imagen con OpenCV. Las imagenes son leidas como 
 #numpy array. Por defecto OpenCV lee las imagenes 
 #en formato BGR
-imagen_BGR = cv2.imread('images/ny.jpg')
+imagen_BGR = cv2.imread('images/oficina.jpg')
 h, w = imagen_BGR.shape[:2] #obteniendo de la tupla solo los 2 primeros elementos
 """
 fin leer imagen
