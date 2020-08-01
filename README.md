@@ -1,6 +1,8 @@
 ## RECONOCER OBJETOS EN IMAGEN/VIDEO/CAMARA USANDO YOLOV3/V4 CON OPENCV
-![](detecciones/deteccion_oficina.png)
-![](gif/bloggif_5f24d1b132d54.gif)
+<img src="detecciones/deteccion_oficina.png" width="350" height="350" />
+
+<img src="gif/bloggif_5f24d1b132d54.gif" width="350" height="250" />
+
 
 Reconocer objetos usando la librería OpenCV
 ## YOLOV3 / YOLOV4 🚀
