@@ -75,7 +75,6 @@ Configurar el path de los pesos(paso 7) según la versión de Yolo a utilizar
 ##¿Cuál versión de yolo funcionó mejor para tu proyecto?
 ¿Cuál versión de yolo funcionó mejor para tu proyecto?
 
-##GOOD LUCK! Creado por jgomher83 para go_ahead
 GOOD LUCK! Creado por jgomeher83 para go_ahead
 
 ### Documentacion oficial
