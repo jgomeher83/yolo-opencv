@@ -27,9 +27,8 @@ Numpy
 _Poner los pesos en la carpeta yolo-coco-data_
 
 ### Descargar Anaconda
-```
 * [Anaconda](https://www.anaconda.com/products/individual) - Descargar anaconda
-```
+
 ### Abrir Anaconda Prompt
 _Crear un ambiente virtual_
 ```
