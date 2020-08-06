@@ -11,71 +11,79 @@ Es necesario descargar los pesos para cada versión de YOLO.
 * [yolov3.weights](https://pjreddie.com/darknet/yolo) - Descargar yolo.weights
 * [yolov4.weights](https://drive.google.com/file/d/1-_-Nwz1RwQqZglKqg-E-04lhWM1RvsaN/view?usp=sharing) - Archivo en drive
 ### Requisitos📋
-
+```
 Python
+```
+```
 Anaconda(recomendado)
+```
+```
 OpenCV
+```
+```
 Numpy
-
+```
 ### Instalación 🔧
-1. Poner los pesos en la carpeta yolo-coco-data
-2. Descargar Anaconda
+_Poner los pesos en la carpeta yolo-coco-data_
+
+### Descargar Anaconda
+```
 * [Anaconda](https://www.anaconda.com/products/individual) - Descargar anaconda
-3. Abrir Anaconda Prompt
-4. Crear un ambiente virtual
-
+```
+### Abrir Anaconda Prompt
+_Crear un ambiente virtual_
+```
 conda create --name go_ahead_env
-
-5. Activar el ambiente
-
+```
+### Activar el ambiente
+```
 conda activate go_ahead_env
-
-_6. Instalar las librerias necesarias
-
+```
+### Instalar las librerias necesarias
+```
 conda install -c conda-forge opencv
-
-
+```
+```
 conda install -c anaconda numpy
-
-7. Configurar path de pesos y configuracion
-Para correr Yolov3 abrir el script yolo_image.py y modificar path en la linea 56
-
+```
+### Configurar path de pesos y configuracion
+_Para correr Yolov3 abrir el script yolo_image.py y modificar path en la linea 56_
+```
 network = cv2.dnn.readNetFromDarknet('yolo-coco-data/yolov3.cfg','yolo-coco-data/yolov3.weights')
-
-Para correr Yolov4 abrir el script yolo_image.py y modificar path en la linea 56
-
+```
+_Para correr Yolov4 abrir el script yolo_image.py y modificar path en la linea 56_
+```
 network = cv2.dnn.readNetFromDarknet('yolo-coco-data/yolov4.cfg', 'yolo-coco-data/yolov4.weights')
-
-8. Correr el detector imagenes yolo_image.py en anaconda prompt
-navegar hasta la carpeta yolo-opencv y correr el script:
-
+```
+### Correr el detector imagenes yolo_image.py en anaconda prompt
+_navegar hasta la carpeta yolo-opencv y correr el script:_
+```
 python yolo_image.py
-
-9. Detectar objetos en otras imagenes
-Poner la imagen de interes en la carpeta images
-Abrir en algun editor el script yolo_image.py y configurar el path en la linea 26
-
+```
+### Detectar objetos en otras imagenes
+_Poner la imagen de interes en la carpeta images_
+_Abrir en algun editor el script yolo_image.py y configurar el path en la linea 26_
+```
 imagen_BGR = cv2.imread('images/nombre_imagen.jpg')
-
-Guardar cambios y correr el script
-
+```
+_Guardar cambios y correr el script en anaconda prompt_
+```
 python yolo_image.py
-
-10. Detectar objetos en video
-
+```
+### Detectar objetos en video
+```
 python yolo-3-video.py
-
-por defecto detectará objetos en el archivo overpass.mp4 ubicado en la carpeta videos
-para detectar objetos en otro video, añadirlo a la carpeta videos y configurar path en la linea 28
-
+```
+_Por defecto detectará objetos en el archivo overpass.mp4 ubicado en la carpeta videos
+para detectar objetos en otro video, añadirlo a la carpeta videos y configurar path en la linea 28_
+```
 video = cv2.VideoCapture('videos/name_video.mp4')
+```
+_Configurar el path de los pesos según la versión de Yolo a utilizar_
 
-Configurar el path de los pesos(paso 7) según la versión de Yolo a utilizar
+### ¿Cuál versión de yolo funcionó mejor para tu proyecto?
 
-##¿Cuál versión de yolo funcionó mejor para tu proyecto?
-¿Cuál versión de yolo funcionó mejor para tu proyecto?
-
-GOOD LUCK! Creado por jgomeher83 para go_ahead
+_GOOD LUCK! Creado por jgomeher83 para go_ahead_
 
 ### Documentacion oficial
 * [OpenCV](https://opencv.org/) - OpenCv
