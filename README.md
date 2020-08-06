@@ -46,7 +46,7 @@ conda install -c conda-forge opencv
 conda install -c anaconda numpy
 ```
 ### Configurar path de pesos y configuracion
-_Para correr Yolov3 abrir el script yolo_image.py y modificar path en la linea 56_
+_Para correr Yolov3 abrir el archivo yolo_image.py en algun editor y modificar path en la linea 56_
 ```
 network = cv2.dnn.readNetFromDarknet('yolo-coco-data/yolov3.cfg','yolo-coco-data/yolov3.weights')
 ```
@@ -73,8 +73,8 @@ python yolo_image.py
 ```
 python yolo-3-video.py
 ```
-_Por defecto detectará objetos en el archivo overpass.mp4 ubicado en la carpeta videos
-para detectar objetos en otro video, añadirlo a la carpeta videos y configurar path en la linea 28_
+_Por defecto detectará objetos en el archivo overpass.mp4 ubicado en la carpeta videos_
+_Para detectar objetos en otro video, añadirlo a la carpeta videos y configurar path en la linea 28_
 ```
 video = cv2.VideoCapture('videos/name_video.mp4')
 ```
@@ -82,7 +82,7 @@ _Configurar el path de los pesos según la versión de Yolo a utilizar_
 
 ### ¿Cuál versión de yolo funcionó mejor para tu proyecto?
 
-_GOOD LUCK! Creado por jgomeher83 para go_ahead_
+_GOOD LUCK! Creado por jgomeher83 
 
 ### Documentacion oficial
 * [OpenCV](https://opencv.org/) - OpenCv
