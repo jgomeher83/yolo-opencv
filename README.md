@@ -24,7 +24,7 @@ OpenCV
 Numpy
 ```
 ### Instalación 🔧
-_Poner los pesos en la carpeta yolo-coco-data_
+_Poner los archivos yolov3.weights y yolov4.weights en la carpeta yolo-coco-data_
 
 ### Descargar Anaconda
 * [Anaconda](https://www.anaconda.com/products/individual) - Descargar anaconda
