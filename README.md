@@ -7,8 +7,8 @@
 Reconocer objetos usando la librería OpenCV
 ## YOLOV3 / YOLOV4 🚀
 _Reconocer objetos en imagen/video/camara con OpenCV deep learning library, utilizando dnn, y darknet framework.
-Es necesario descargar los pesos para cada versión de YOLO.
-* [yolov3.weights](https://pjreddie.com/darknet/yolo) - Descargar yolo.weights
+Es necesario descargar los pesos para cada versión de YOLO._
+* [yolov3.weights](https://pjreddie.com/darknet/yolo) - Descargar weights, YOLOv3-416
 * [yolov4.weights](https://drive.google.com/file/d/1-_-Nwz1RwQqZglKqg-E-04lhWM1RvsaN/view?usp=sharing) - Archivo en drive
 ### Requisitos📋
 ```
