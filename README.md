@@ -87,3 +87,5 @@ _GOOD LUCK! Creado por jgomeher83
 ### Documentacion oficial
 * [OpenCV](https://opencv.org/) - OpenCv
 * [YOLO](https://pjreddie.com/darknet/yolo/) - Pagina oficial de yolo y darknet
+* [Youtube tutorial](https://www.youtube.com/watch?v=I5BvcN-Ef9Y&feature=youtu.be) - Tutorial en YouTube
+
